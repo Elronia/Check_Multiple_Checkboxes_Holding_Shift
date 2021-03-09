@@ -13,6 +13,7 @@ function handleCheck(e) {
             console.log(checkbox);
             if (checkbox === this || checkbox === lastChecked) {
                 inBetween = !inBetween;
+                console.log('Starting to check them in between!');
             }
 
             if (inBetween) {
